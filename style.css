@@ -57,7 +57,7 @@ h1 {
 /* Container styles */
 .container {
   position: relative;
-  width: 420px;
+  width: 500px;
   aspect-ratio: 420 / 330;
   border: var(--border-width-main) solid var(--color-border);
   border-radius: var(--border-radius);
