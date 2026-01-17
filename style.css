@@ -42,7 +42,7 @@ body {
   align-items: center;
   background: var(--color-page-background) var(--image-path-background) bottom
     center no-repeat;
-  background-size: 100% auto; /* Desktop view */
+  background-size: cover;
 }
 
 h1 {
@@ -190,11 +190,6 @@ header {
 
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
-  body {
-    background-size: cover;
-    background-position: bottom center;
-  }
-
   .container {
     margin: 1rem;
   }
